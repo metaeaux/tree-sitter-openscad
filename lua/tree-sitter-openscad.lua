@@ -18,7 +18,7 @@ function M.register_parser()
     parser_config = parsers
   end
 
-  parser_config.jinja2 = {
+  parser_config.openscad = {
     install_info = {
       url = plugin_dir,
       files = { "src/parser.c" },
